@@ -1,0 +1,170 @@
+.food_header_content {
+  color: #063742;
+  height: 50vh;
+  text-align: center;
+}
+
+.food_header_content p {
+  margin-top: 7em;
+}
+
+.food_overview_header {
+  width: 70%;
+  margin: 0 auto;
+  /* border: #063742 1px solid; */
+  text-align: center;
+}
+
+.food_overview_header h3 {
+  margin-bottom: 1em;
+  font-weight: 700;
+  /* color: #82b440; */
+  color: #6f9a37;
+  font-size: 2.4rem;
+}
+
+.diet_info_item {
+  border: #6f9a37 2px solid;
+  margin: 2em;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+.diet_info_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.progress_history_section {
+  width: 80%;
+  margin: 6em auto;
+}
+
+.progress_history_button_div {
+  display: flex;
+  justify-content: center;
+}
+
+.progress_history_section_buttons {
+  display: inline-block;
+  width: 200px;
+  background-color: #6f9a37;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 1em 3em;
+  font-size: 1.2rem;
+}
+
+.food_table_div {
+  background-image: url('../images/diet2.jpg');
+  margin-top: 2rem;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+
+}
+
+.diet_overlay {
+  content: "";
+  background-color: rgba(111, 154, 55, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.food_table_body {
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 6em;
+}
+
+.food_table_header {
+  text-align: center;
+  position: relative;
+  margin: 1em auto;
+}
+
+.food_table_header h3{
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin: 1em auto;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-size: 2.4rem;
+}
+
+.food_table_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.add_food {
+  width: 30%;
+  margin: 1em;
+  background-color: #ffffff;
+  border: 1px solid #6f9a37;
+  padding: 20px 20px 20px 20px;
+  margin-right: 4em;
+  border-radius: 15px;
+}
+
+.food_table_item {
+  width: 60%;
+  border: 1px solid #ffffff;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.exercise_section {
+  padding-top: 3em;
+  padding-bottom: 6em;
+  text-align: center;
+}
+
+.add_btn_diet {
+  margin: 2em auto;
+  width: 150px;
+}
+
+.add_btn_diet > .add_btn{
+  background-color: transparent;
+  border: 2px solid #6f9a37;
+  color: #6f9a37;
+  font-weight: bold;
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.add_btn_diet > .add_btn:hover {
+  background-color: #6f9a37;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.meal_type_select {
+  min-width: 180px;
+}
+.food_name_select {
+  max-width: 300px;
+}

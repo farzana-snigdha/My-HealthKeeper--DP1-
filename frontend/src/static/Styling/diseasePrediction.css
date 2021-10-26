@@ -1,0 +1,200 @@
+.disease_header_content{
+  color: #522d58;
+  text-align: center;
+  height: 50vh;
+}
+
+.description_section_dp {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 3.5em;
+  color: rgb(0, 0, 204);
+  font-weight: 520;
+  /* border: black 1px solid; */
+}
+
+.steps_section {
+  /* border: black 1px solid; */
+  background-image: linear-gradient(180deg, #35C7DF 0%, #075AC9 100%);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.steps_section_body {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 4em;
+  /* border: 1px sloid #000000; */
+}
+
+.steps_section_item {
+  margin-top: 3em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  border: 1px sloid #000000;
+  width: 30%;
+  text-align: center;
+}
+
+.steps_item_icon {
+  font-size: 4rem;
+}
+
+
+
+.root {
+  flex-grow: 1;
+  padding: 1%;
+
+}
+
+.root>  .grid_symptoms{
+  color:#075AC9 ;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.predict_button{
+  margin: 19px;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+.predict_button>.predict{
+  justify-content: center;
+  color: white;
+  background-color: #075AC9;
+  padding: .9%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border-radius: 15px;
+  font-size: 15px;
+}
+.predict_button>.predict:hover{
+  justify-content: center;
+  color: white;
+  
+  color: #075AC9;
+  background-color: transparent;
+  /* font-weight: bold; */
+  border: 2px solid rgb(0, 0, 204);
+}
+
+
+.disease_main>.hotline_number{
+  justify-content: center;
+  color: white;
+  background-color: #075AC9;
+  padding: .9%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border-radius: 25px;
+  font-size: 22px;
+ 
+}
+.disease_main>.hotline_number:hover{
+  justify-content: center;
+  color: #075AC9;
+  background-color: transparent;
+  font-weight: bold;
+  border: 2px solid rgb(0, 0, 204);
+
+ 
+}
+
+.prediction_label{
+ margin-top: 2%;
+ margin-left: 2.5%;
+ margin-right: 2.5%;
+ margin-bottom: 0%;
+  height: 220px;
+ border-color:#075AC9;
+ border-style: double;
+ border-width: 5px;
+ border-radius: 10px;
+ max-width: 1000px;
+ display: flex;
+justify-content: center;
+}
+
+.prediction_label>.prediction_div{
+  padding: 1.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.footer{
+  text-align: center;
+  color: red;
+  font-weight: 550;
+  font-size: 19px;
+}
+
+.intro{
+  text-align: center;
+  font-size: 29px;
+  
+} 
+
+.disease_main {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+vertical-align: middle;
+}
+
+.symptoms_body {
+margin: 3em;
+margin-top: 4em;
+background-color: transparent;
+padding: 12px;
+padding-top: 18px;
+border-radius: 15px;
+width: 33%;
+font-weight: 550;
+text-align: center;
+border: 2px solid rgb(0, 0, 204);
+}
+
+.prediction_body {
+margin: 3em;
+margin-top: 6em;
+display: flex;
+justify-content: center;
+}
+
+.symptom_list_body {
+  /* border: #007cba 1px solid; */
+  margin-top: 1rem;
+  /* background-image: url("../images/disease2.jpg"); */
+  /* background-image: linear-gradient(180deg, #35C7DF 0%, #075AC9 100%); */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  
+}
+
+.steps_item_info {
+  color: #dadfe6;
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+
+.hotline_body {
+  margin: 0 auto;
+  border: 1px sloid #dadfe6;
+}
+
+.disease_overlay {
+  content: "";
+  /* background-color: rgba(8, 64, 184, 0.4); */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+

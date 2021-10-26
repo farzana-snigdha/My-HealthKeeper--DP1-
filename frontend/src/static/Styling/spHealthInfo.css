@@ -1,0 +1,138 @@
+.sp_header_content {
+  color: #063742;
+  height: 50vh;
+  text-align: center;
+}
+
+.description_section {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 3.5em;
+}
+
+.sp_add_body {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.sp_add_body_image {
+  width: 50%;
+  background-image: url("../images/sp9.jpg");
+}
+
+.sp_add_box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border-bottom: solid 1px rgb(253, 230, 166);
+  border-top: solid 1px rgb(253, 230, 166);
+  font-size: 1em;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sp_notes_header {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sp_notes_header h3 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-weight: 700;
+  color: rgb(233, 175, 15);
+  font-size: 2.4rem;
+}
+
+.sp_notes_box {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  /* border: #fd8412 1px solid; */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.sp_reminder_card {
+  flex-direction: column;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  max-width: 270px;
+  border-radius: 35px;
+  background: transparent;
+  border: rgb(233, 175, 15) 2px solid;
+}
+
+
+
+
+.folderName:hover {
+  }
+
+
+.folder_name {
+  height: 70px;
+  width: 200px;
+  text-align: start center;
+  align-items: center;
+  padding: 10px;
+}
+
+.SPiconBtn {
+  padding: 0%;
+}
+
+ .viewBtn {
+  align-items: flex-end;
+  color: rgb(55, 57, 80);
+  padding-top: 0%;
+}
+
+ .viewBtn:hover {
+  background-color: #f5fbfd;
+  color: #ff9900;
+}
+
+.fileButton {
+  color: #d1b66c;
+  align-content: flex-end;
+}
+.clrDiv {
+  font-weight: bold;
+  color: rgb(46, 47, 65);
+  text-shadow: 2px 2px #d1b66c;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+
+.sp_reminder_card > .content > .editingBox {
+  border-radius: 10px;
+  border-color: #063742;
+  background: #d9ebf3;
+  width: 100%;
+}
+.sp_reminder_card > .content {
+  width: 90%;
+  margin-right: 0px;
+  padding-bottom: 0%;
+  padding-top: 0%;
+}
+
+.editTextBox{
+  width:100%;
+  border-radius: 10px;
+}

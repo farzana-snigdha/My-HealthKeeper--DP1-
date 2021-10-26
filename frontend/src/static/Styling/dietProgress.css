@@ -1,0 +1,83 @@
+.month_progress_div {
+  border: #f8d776 2px solid;
+  margin-left: 3em;
+  margin-top: 2em;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* padding: 10px; */
+  box-shadow: 2px 2px 2px 2px #ffe599;
+}
+.month_progress_select {
+  min-width: 110px;
+  font-size: 55px;
+  /* padding: 10px; */
+  font-weight: bold;
+}
+
+.year_progress_select {
+  min-width: 80px;
+  font-size: 55px;
+  /* padding: 10px; */
+  font-weight: bold;
+}
+
+.avg_consumed_cal_progress_div {
+  border: #f8d776 2px solid;
+  /* margin: 1em; */
+  /* margin-top: 4em; */
+  margin-left: 40%;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px #ffe599;
+}
+
+.suggestion_progress_div {
+    border: #f8d776 2px solid;
+    margin-left: 3em;
+    /* margin-top: 2em; */
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px #ffe599;
+    /* font-size: 25px; */
+}
+
+.add_burn_diet>{
+  display: flex;
+  flex-direction: row;
+}
+.add_burn_diet>.burn_btn{
+  margin-top: 6px;
+  margin-left: 10px;
+  background-color: transparent;
+  border: 2px solid #6f9a37;
+  color: #6f9a37;
+  font-weight: bold;
+  padding: 5px;
+  width: 100px;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.add_burn_diet>.burn_btn:hover {
+  background-color: #6f9a37;
+  color: #ffffff;
+  box-shadow: none;
+}

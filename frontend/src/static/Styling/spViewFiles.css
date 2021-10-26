@@ -1,0 +1,107 @@
+.heading {
+  padding: 1%;
+  display: flex;
+  color: #063742;
+  justify-content: space-between;
+}
+.heading > .return_to_spHealth {
+  color: #063742;
+  font-size: 18px;
+}
+.heading > .return_to_spHealth:hover {
+  font-weight: bold;
+}
+.heading > .spHealth_reminder_buttons {
+  display: flex;
+  width: 30%;
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 0px;
+}
+
+ .viewFiles_addBtn {
+  width: auto;
+  height: 30px;
+  text-justify: center;
+  color: rgb(46, 47, 65);
+  text-shadow: 2px 2px #d1b66c;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+ .viewFiles_addBtn:hover {
+  text-shadow: 2px 2px rgb(46, 47, 65) ;
+    color: #d1b66c;
+    border:rgb(46, 47, 65) 1px solid ;
+}
+.sp_file_add_body_image{
+  width: 100%;
+  background-image: url("../images/sp91.jpg");
+  padding: 0;
+  position: absolute;
+}
+
+.media_card {
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  width: 210px;
+  max-height: auto;
+  margin: 1.7rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  max-width: 350px;
+  border-radius: 6px;
+  background-color: #f1bf36be;
+}
+.notes{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 4%;
+ 
+  border: #d1b66c 1px solid;
+  border-radius: 4px;
+  background-color: #f1bf36be;
+}
+.notes_edit{
+  padding: 2%;
+  width: 100%;
+  padding-top: 1%;
+   display: flex;
+   min-height: 100%;
+  justify-content: center;
+  border: #d1b66c 1px solid;
+}
+/* pdf files */
+
+.mainPdf > .pdfViewer {
+  display: inline-block;
+  color: #063742;
+}
+.react-pdf__Page__canvas {
+  margin: 6px;
+  width: 85% !important;
+  height: 100% !important;
+}
+
+
+.media_card>.lazyload>.media_file_delete>.media_file_delete_sub {
+  /* color: #063742; */
+margin-left: 130px;
+margin-right: 0px;
+
+}
+
+  
+  .media_card>.pdf>.lazyload>.media_file_delete>.media_file_delete_sub {
+    color: #063742;
+  margin-left: 130px;
+  margin-right: 0px;
+  
+  }

@@ -1,0 +1,182 @@
+.MuiInputBase-input {
+  color: #04161e !important;
+  background-color: #ffffff9f !important;
+}
+
+.med_header_content {
+  color: #063742;
+  height: 50vh;
+  text-align: center;
+}
+
+.med_today_header, .med_done_header {
+  width: 70%;
+  margin: 0 auto;
+  /* border: #063742 1px solid; */
+  text-align: center;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.med_today_header h3, .med_done_header h3{
+  /* margin-top: 1em; */
+  margin-bottom: 2em;
+  font-weight: 700;
+  color: #007cba;
+  font-size: 2.4rem;
+}
+
+.med_today_box, .ongoing_med_box, .done_med_box {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  /* border: #fd8412 1px solid; */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.ongoing_med_box, .done_med_box {
+  width: 80%;
+}
+
+.med_today_card {
+  display: inline-block;
+  width: 20%;
+  padding: 15px 35px 15px 35px;
+  margin: 1rem;
+  border: 1.5px solid #007cba;
+  border-radius: 35px;
+  text-align: center;
+  color: #012649;
+  /* font-family: 'Roboto'; */
+  /* box-shadow: 2px 0px 30px 0px rgb(0 0 0 / 15%); */
+}
+
+.med_today_card h2{
+  font-size: 1.5rem;
+}
+
+.med_confirm_btn {
+  margin-top: 20px;
+  color: #007cba !important;
+  width: 100px;
+  border-radius: 50px !important;
+
+}
+
+.med_confirm_btn:hover {
+  background-color: #007cba !important;
+  color: #ecffff !important;
+  transition: all 0.15s ease-in-out !important;
+}
+
+.ongoing_med_body {
+  /* border: #007cba 1px solid; */
+  margin-top: 2rem;
+  background-image: url("../images/med3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.overlay_med {
+  content: "";
+  background-color: #007cba8f;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.med_ongoing_header {
+  text-align: center;
+  position: relative;
+}
+
+.med_ongoing_header h3{
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-weight: 700;
+  color: rgb(234, 250, 253);
+  font-size: 2.4rem;
+}
+
+.ongoing_med_card {
+  display: inline-block;
+  width: 20%;
+  padding: 15px 35px 15px 35px;
+  background-color: transparent;
+  /* background-image: linear-gradient(180deg, #35C7DF 0%, #075AC9 100%); */
+  /* background-image: linear-gradient(180deg, #075AC9 0%, #ffffff  100%); */
+  background-color: #ffffff;
+  border-radius: 3px 3px 3px 3px;
+  border: 2px solid #007cba;
+  margin: 1em;
+}
+
+.ongoing_med_card h2, .done_med_card h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.ongoing_med_card.btn DeleteIcon {
+  background-color: #063742;
+  color: #063742;
+  align-content: flex-end !important;
+}
+
+.add_med {
+  width: 60%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  
+  /* border: 2px solid #007cba; */
+  margin: 2.5em auto;
+}
+
+.add_new_button {
+  width: 200px;
+  background-color: #075AC9;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.done_med_body {
+  margin-top: 4em;
+}
+
+.done_med_card {
+  background-image: linear-gradient(180deg, #35C7DF 0%, #075AC9 100%);
+  width: 20%;
+  margin: 1em;
+  padding: 15px 35px 15px 35px;
+  color: #ffffff;
+}
+
+
+ .labels {
+  margin-left: 20%;
+  margin-bottom: 4px;
+  color: #04161e;
+  font-weight: 550;
+  font-size: 1.1rem;
+}
+
+ .textfield {
+  width: 60%;
+  margin-left: 20%;
+  height: 70px;
+}
+
+ .form_btns > .add_btn {
+  width: 120px;
+  margin: 1em auto;
+  display: grid;
+  background-color: #075AC9;
+}

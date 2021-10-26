@@ -1,0 +1,17 @@
+.steps_section_body {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em;
+    position: relative;
+    border: 1px sloid #000000;
+  }
+  
+  .steps_section_item {
+    display: flex;
+    flex-direction: column;
+    border: 1px sloid #000000;
+  }

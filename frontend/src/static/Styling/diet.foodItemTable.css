@@ -1,0 +1,25 @@
+.add_food > .add_food_btn{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 20%;
+    color: #063742;
+    /* background-color: #69f08a; */
+    display: inline;
+    margin-left: 35%;
+    margin-right: 40%;
+    padding: 0.1rem;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+  }
+   .add_food > .add_food_btn:hover{
+    text-decoration: underline;
+   }
+   .mod_btn{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  

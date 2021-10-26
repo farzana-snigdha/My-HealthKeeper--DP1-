@@ -1,0 +1,174 @@
+.mens {
+  padding: 30px;
+}
+.mens_body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.input_fields {
+  margin-top: 10px;
+}
+
+.mens_info {
+  margin: 3em 2em 0 2em;
+  margin-right: 3em;
+  display: flex;
+  flex-direction: column;
+}
+
+.info_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.info_item {
+  border: rgb(250, 131, 131) 2px solid;
+  margin: 1em 2em;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  /* box-shadow: 2px 2px 2px 2px rgb(248, 214, 217); */
+}
+
+.info_item p {
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.mens_input {
+  margin: 2em 2em 0 2em;
+}
+
+.mens_cal {
+  margin: 2em 2em 0 7em;
+}
+
+.cal_body {
+  background-color: rgb(247, 188, 193);
+  border-radius: 10px;
+  padding: 15px;
+  height: 620px;
+  width: 570px;
+}
+
+.input_form {
+  background-color: rgb(247, 188, 193);
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 350px;
+  /* height: 300px; */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10rem;
+}
+
+.input_form h4 {
+  margin-bottom: 1.5em;
+}
+
+.mens_button {
+  margin-top: 30px !important;
+  width: auto;
+  height: auto;
+  background: rgb(202, 77, 98) !important;
+  color: black;
+  font-weight: bold;
+}
+
+.fc-prev-button > .fc-button > .fc-button-primary {
+  background: darkcyan;
+}
+
+.fc-col-header-cell-cushion {
+  color: black;
+  text-decoration: none;
+}
+
+.fc-daygrid-day-number {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.fc .fc-button-primary {
+  background: rgb(202, 77, 98);
+  border: 1px solid rgb(202, 77, 98);
+}
+
+.fc-today-button .fc-button .fc-button-primary {
+  background: rgb(202, 77, 98);
+}
+
+.fc-scroller {
+  overflow-y: hidden !important;
+}
+
+.tips_style {
+  color: black;
+}
+.notes_body {
+  margin: 2em;
+}
+.notes_data {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  margin: 1em;
+  padding: 2em;
+}
+
+.notes_card {
+  background-image: linear-gradient(180deg, #e79797ce 0%, #CA4D62 100%);
+  display: grid;
+  grid-template-columns: 4fr;
+  margin: 1em;
+  padding: 2em;
+  color: #ffffff;
+}
+
+.mens_header_content {
+  color: #CA4D62;
+  height: 60vh;
+  text-align: center;
+}
+.mens_calendar_body {
+  /* border: #007cba 1px solid; */
+  margin-top: 4rem;
+  background-image: url("../images/mens_pink.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.mens_journal_body {
+ 
+  padding: 2.5%;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.mens_overlay {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.add_notes_style {
+  margin-left: 7%;
+}

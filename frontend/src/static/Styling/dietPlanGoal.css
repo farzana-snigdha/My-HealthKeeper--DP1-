@@ -1,0 +1,28 @@
+.set_diet_goal_button > .add_btn {
+  width: 190px;
+  margin: 3em auto;
+  display: grid;
+  background-color: transparent;
+  border: 2px solid #6f9a37;
+  border-radius: 40px;
+  box-shadow: none;
+  padding: 15px 10px;
+  color: #6f9a37;
+}
+
+.set_diet_goal_button > .add_btn:hover {
+  color: #ffffff;
+  background-color: #6f9a37;
+  box-shadow: none;
+}
+
+.goal_div {
+  width: 30%;
+  /* margin-top: 2em;
+  margin-left: 4em; */
+  margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+}

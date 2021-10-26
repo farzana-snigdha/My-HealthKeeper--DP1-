@@ -1,0 +1,15 @@
+.link-color {
+    color:#312f2f;
+}
+.link-color:hover{
+    color:#312f2f;
+    font-weight: bold;
+}
+
+.sidebar-color{
+    color:#424040;
+}
+
+.sidebar-options-color{
+    color:white;
+}

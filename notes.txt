@@ -1,0 +1,35 @@
+**check package.json for both of them and install packages**
+mongodb=> use project mail. for any doubt: https://www.youtube.com/watch?v=St0_qSe7RCE&list=PLJM1tXwlGdaf57oUx0rIqSW668Rpo_7oU&index=2 
+
+
+
+for easy registration comment out the if conditions except if(user)
+
+
+navbar=>avatar(before logout)
+check part7N
+
+
+frontend: npm i react-pdf
+backend: npm uninstall express-fileupload
+npm i react-lazyload react-modal-image
+
+//new 
+backend: npm i ssl-commerz-node shortid morgan soap child_process
+python -m pip install zeep
+
+****install python extension 
+
+//new
+backend :
+pip install sklearn numpy pandas 
+pip install metrics naive_bayes
+
+file>preference>settings> search(execute in file dir)> python>terminal:execute in file dir [check: when executing a file in the terminal......]
+
+
+npm install fast-csv
+
+npm install react-grid-system --save
+pip install svm rfc knn decision_tree ensemble neighbors tree clf
+npm i mui date-fns

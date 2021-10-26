@@ -1,0 +1,24 @@
+.link-color {
+    color:#04272f;
+    font-weight: bold;
+    
+}
+.link-color:hover{
+    color:#0a3944;
+    font-weight: bold;
+}
+.signup{
+    color:#04272f;
+    font-weight: bold;
+      font-size: 25px;
+}
+.signup:hover{
+    color:#0a3944;
+    font-weight: bold;
+}
+
+
+.sidebar-options-color{
+    color:white
+
+}

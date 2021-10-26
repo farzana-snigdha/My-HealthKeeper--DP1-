@@ -1,0 +1,208 @@
+.profile_page {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .profile_page .col-left {
+    max-width: 400px;
+    min-width: 300px;
+    padding: 0 10px;
+    margin: auto;
+  }
+  
+  .profile_page .col-left .avatar {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    margin: 15px auto;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .profile_page .col-left img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .profile_page .col-left .avatar span {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: #fff8;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(63, 62, 61);
+    transition: 0.3s ease-in-out;
+  }
+  .profile_page .col-left .avatar:hover span {
+    bottom: -15%;
+  }
+  .profile_page .col-left #file_up {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  .profile_page .col-left h2 {
+    text-align: center;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: #333;
+    margin: 10px 0;
+  }
+  .profile_page .col-left label {
+    display: block;
+    margin-top: 5px;
+  }
+  .profile_page .col-left input {
+    width: 100%;
+    height: 40px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    background: rgb(223, 221, 221);
+    padding: 0 5px;
+    /* color: white; */
+  }
+  .profile_page button {
+    background: #333;
+    color: white;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    margin: 10px 0;
+    justify-content: center;
+  }
+  
+  .gender_style {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+  }
+  
+  /* ----------- Col Right----------- */
+  .profile_page .col-right {
+    padding: 0 10px;
+    flex: 1;
+    min-width: 300px;
+  }
+  .profile_page .col-right h2 {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .card_body_profile {
+    width: 80%;
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.2rem;
+    margin-top: 2.5%;
+    
+    /* box-shadow: 2px 2px 6px 0px  rgba(0,0,0,1); */
+  }
+  .profile_root {
+    display: "flex";
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 1%;
+    margin-left: 9%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(191, 197, 197),transparent;
+  }
+  .profile_div {
+    display: "flex";
+    flex-direction: column;
+  }
+  .body_container{
+    /* background:linear-gradient(#eff3f1,#EBFBF2,#e0f8ea); */
+   /* background-color: #61f3c7ad; */
+  }
+  
+  
+  .profile_content {
+    flex: "1 0 auto";
+    height: 530px;
+    background:linear-gradient(#61f3aaad,#EBFBF2,#eff3f1);
+    background-color: #61f3c7ad;
+  }
+  .profile_image_div {
+    height: 300px;
+    padding: 3%;
+    padding-top: 0px;
+    /* display: flex;
+    justify-content: center; */
+  }
+  .profile_image {
+  
+    border-radius: 12px;
+    min-height: 75%;
+    max-height: 75%;
+    min-width: 100%;
+      }
+  
+  .profile_label {
+    /* font-weight: bold; */
+    margin-left: 35px;
+    font-size: 18px;
+  }
+  .profile_input {
+    margin: 12px;
+    margin-bottom: 19px;
+  }
+  
+  .grid_profile {
+    width: 100%;
+    /* height: 455px; */
+  }
+  .card_grid_profile {
+    display: grid;
+    margin: 2.6%;
+   
+   
+  }
+  .grid_profile_input {
+      margin:12px;
+      font-size: 18px;
+  }
+  .profile_upgrade_btn{
+      background-color: #61f3aaad;
+     
+      height: 40px;
+      width: 125px;
+      border-radius: 8px;
+      margin-top: 10%;
+      margin-left: 35%;
+  }
+  .profile_upgrade_btn:hover{
+      background-color: #61f3c7;
+  
+  }
+  
+  .profile_save_btn{
+      background-color: #61f3aaad;
+      height: 41px;
+      width: 150px;
+      border-radius: 8px;
+      margin-top: 2%;
+      margin-left: 42%;
+      margin-bottom: 5%;
+  }
+
+  .profile_save_btn:hover{
+    background-color: #61f3c7;
+  }
